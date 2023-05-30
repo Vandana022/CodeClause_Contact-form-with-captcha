@@ -1,0 +1,114 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background: rgb(37, 15, 0);
+}
+
+.contactform {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    max-width: 450px;
+    background: rgb(255, 112, 29);
+    /* box-sizing: 30px; */
+    border-radius: 10px;
+    padding: 20px 30px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 2.0);
+}
+
+.title {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    margin: 20px 0px 30px;
+    color: black;
+}
+
+.forminput {
+    margin: 10px 0px;
+}
+
+.forminput label,
+.captcha label {
+    display: block;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 5px;
+    font-weight: 550;
+}
+
+.forminput input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000000;
+    font-size: 15px;
+}
+
+.captcha {
+    margin: 15px 0px;
+}
+
+.preview {
+    color: #000000;
+    font-weight: bolder;
+    font-size: large;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    letter-spacing: 10px;
+    margin: 0px 0px 10px 0px;
+    border: 1px dashed black;
+    font-family: "monospace";
+}
+
+.preview span {
+    display: inline-block;
+    user-select: none;
+
+}
+
+.captcha-form {
+    display: flex;
+
+}
+
+.captcha-form input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #000000;
+
+}
+
+.captcha-refresh {
+    width: 40px;
+    border: none;
+    outline: none;
+    background: #000000;
+    color: #eee;
+    cursor: pointer;
+}
+
+#contact-us {
+    margin-top: 5px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    background: #000000;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
